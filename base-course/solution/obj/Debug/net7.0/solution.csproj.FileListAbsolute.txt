@@ -1,0 +1,15 @@
+C:\Users\777\RiderProjects\PSB_ex1\solution\bin\Debug\net7.0\solution.exe
+C:\Users\777\RiderProjects\PSB_ex1\solution\bin\Debug\net7.0\solution.deps.json
+C:\Users\777\RiderProjects\PSB_ex1\solution\bin\Debug\net7.0\solution.runtimeconfig.json
+C:\Users\777\RiderProjects\PSB_ex1\solution\bin\Debug\net7.0\solution.dll
+C:\Users\777\RiderProjects\PSB_ex1\solution\bin\Debug\net7.0\solution.pdb
+C:\Users\777\RiderProjects\PSB_ex1\solution\obj\Debug\net7.0\solution.csproj.AssemblyReference.cache
+C:\Users\777\RiderProjects\PSB_ex1\solution\obj\Debug\net7.0\solution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\777\RiderProjects\PSB_ex1\solution\obj\Debug\net7.0\solution.AssemblyInfoInputs.cache
+C:\Users\777\RiderProjects\PSB_ex1\solution\obj\Debug\net7.0\solution.AssemblyInfo.cs
+C:\Users\777\RiderProjects\PSB_ex1\solution\obj\Debug\net7.0\solution.csproj.CoreCompileInputs.cache
+C:\Users\777\RiderProjects\PSB_ex1\solution\obj\Debug\net7.0\solution.dll
+C:\Users\777\RiderProjects\PSB_ex1\solution\obj\Debug\net7.0\refint\solution.dll
+C:\Users\777\RiderProjects\PSB_ex1\solution\obj\Debug\net7.0\solution.pdb
+C:\Users\777\RiderProjects\PSB_ex1\solution\obj\Debug\net7.0\solution.genruntimeconfig.cache
+C:\Users\777\RiderProjects\PSB_ex1\solution\obj\Debug\net7.0\ref\solution.dll

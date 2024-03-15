@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viewers", "Viewers\Viewers.csproj", "{F264D589-7C40-4216-BDF1-28FA4410F580}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextStream.Api.Contracts", "..\TextStream.Application\src\TextStream.Api.Contracts\TextStream.Api.Contracts.csproj", "{3CCED2EF-9E44-4A48-B94D-30534C9DEB78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F264D589-7C40-4216-BDF1-28FA4410F580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F264D589-7C40-4216-BDF1-28FA4410F580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F264D589-7C40-4216-BDF1-28FA4410F580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F264D589-7C40-4216-BDF1-28FA4410F580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CCED2EF-9E44-4A48-B94D-30534C9DEB78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CCED2EF-9E44-4A48-B94D-30534C9DEB78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CCED2EF-9E44-4A48-B94D-30534C9DEB78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CCED2EF-9E44-4A48-B94D-30534C9DEB78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

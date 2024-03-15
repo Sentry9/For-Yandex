@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{378E2D99-D80D-4060-AAB9-03E4A42E5A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextStream.Host", "src\TextStream.Host\TextStream.Host.csproj", "{BC28490D-7F1A-4769-A6EB-701C1D873EA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextStream.Api.Contracts", "src\TextStream.Api.Contracts\TextStream.Api.Contracts.csproj", "{D09CB655-68FE-4BA1-A0AC-9BE06DCFD4E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextStream.AppServices", "src\TextStream.AppServices\TextStream.AppServices.csproj", "{5A071416-65EE-4144-88DF-351E9DEC495F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextStream.AppServices.Contracts", "src\TextStream.AppServices.Contracts\TextStream.AppServices.Contracts.csproj", "{DF34FE37-461F-4551-BA2B-701B0AA9C807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextStream.DataAccess", "src\TextStream.DataAccess\TextStream.DataAccess.csproj", "{C73CCB74-6DC9-4757-A347-87A1A973C12C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextStream.Migrations", "src\TextStream.Migrations\TextStream.Migrations.csproj", "{86B6AB1C-279E-4D9F-91BA-787A9EA1FBBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC28490D-7F1A-4769-A6EB-701C1D873EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC28490D-7F1A-4769-A6EB-701C1D873EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC28490D-7F1A-4769-A6EB-701C1D873EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC28490D-7F1A-4769-A6EB-701C1D873EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09CB655-68FE-4BA1-A0AC-9BE06DCFD4E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09CB655-68FE-4BA1-A0AC-9BE06DCFD4E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09CB655-68FE-4BA1-A0AC-9BE06DCFD4E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09CB655-68FE-4BA1-A0AC-9BE06DCFD4E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A071416-65EE-4144-88DF-351E9DEC495F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A071416-65EE-4144-88DF-351E9DEC495F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A071416-65EE-4144-88DF-351E9DEC495F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A071416-65EE-4144-88DF-351E9DEC495F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF34FE37-461F-4551-BA2B-701B0AA9C807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF34FE37-461F-4551-BA2B-701B0AA9C807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF34FE37-461F-4551-BA2B-701B0AA9C807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF34FE37-461F-4551-BA2B-701B0AA9C807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C73CCB74-6DC9-4757-A347-87A1A973C12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C73CCB74-6DC9-4757-A347-87A1A973C12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C73CCB74-6DC9-4757-A347-87A1A973C12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C73CCB74-6DC9-4757-A347-87A1A973C12C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86B6AB1C-279E-4D9F-91BA-787A9EA1FBBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B6AB1C-279E-4D9F-91BA-787A9EA1FBBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B6AB1C-279E-4D9F-91BA-787A9EA1FBBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B6AB1C-279E-4D9F-91BA-787A9EA1FBBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC28490D-7F1A-4769-A6EB-701C1D873EA5} = {378E2D99-D80D-4060-AAB9-03E4A42E5A4C}
+		{D09CB655-68FE-4BA1-A0AC-9BE06DCFD4E0} = {378E2D99-D80D-4060-AAB9-03E4A42E5A4C}
+		{5A071416-65EE-4144-88DF-351E9DEC495F} = {378E2D99-D80D-4060-AAB9-03E4A42E5A4C}
+		{DF34FE37-461F-4551-BA2B-701B0AA9C807} = {378E2D99-D80D-4060-AAB9-03E4A42E5A4C}
+		{C73CCB74-6DC9-4757-A347-87A1A973C12C} = {378E2D99-D80D-4060-AAB9-03E4A42E5A4C}
+		{86B6AB1C-279E-4D9F-91BA-787A9EA1FBBC} = {378E2D99-D80D-4060-AAB9-03E4A42E5A4C}
+	EndGlobalSection
+EndGlobal

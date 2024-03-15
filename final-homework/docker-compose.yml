@@ -1,0 +1,55 @@
+version: '3.9'
+
+volumes:
+  volume1:
+services:
+  textstream-applications-service-db:
+    image: postgres:latest
+    container_name: textstream-applications-service-db
+    ports:
+      - "6432:5432"
+    environment:
+      POSTGRES_DB: "broadcasts"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "password"
+    healthcheck:
+      test: /usr/bin/pg_isready
+      interval: 5s
+      timeout: 10s
+      retries: 120
+    networks:
+      - football-TextStream
+  textstream-applications-service-migration:
+    build:
+      context: ./TextStream.Application
+      dockerfile: Dockerfile-migration
+    image: footbal-textstream-applications-migration:latest
+    container_name: textstream-applications-migration
+    depends_on:
+      textstream-applications-service-db:
+        condition: service_healthy
+    volumes:
+      - ./textstream-application/appsettings.json:/app/appsettings.json
+    networks:
+      - football-TextStream
+  textstream-applications-service:
+    build:
+      context: ./TextStream.Application
+      dockerfile: Dockerfile
+    image: textstream-applications:latest
+    container_name: textstream-applications
+    ports:
+      - "2023:80"
+    depends_on:
+      textstream-applications-service-db:
+        condition: service_healthy
+      textstream-applications-service-migration:
+        condition: service_completed_successfully
+    volumes:
+      - ./textstream-application/appsettings.json:/app/appsettings.json
+      - ./Logs/:/app/Logs/
+    networks:
+      - football-TextStream
+networks:
+  football-TextStream:
+    driver: bridge

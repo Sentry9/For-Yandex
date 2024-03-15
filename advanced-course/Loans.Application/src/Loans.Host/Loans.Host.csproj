@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Loans.Host</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+  <PackageReference Include="DCS.DecisionMakerService.Client.Kafka" Version="1.2.0" />
+  <PackageReference Include="Elastic.CommonSchema.Serilog" Version="8.6.1" />
+  <PackageReference Include="KafkaFlow.LogHandler.Microsoft" Version="2.5.0" />
+  <PackageReference Include="KafkaFlow.Microsoft.DependencyInjection" Version="2.5.0" />
+  <PackageReference Include="KafkaFlow.Serializer" Version="2.5.0" />
+  <PackageReference Include="KafkaFlow.Serializer.JsonCore" Version="2.5.0" />
+  <PackageReference Include="KafkaFlow.TypedHandler" Version="2.5.0" />
+  <PackageReference Include="Serilog" Version="3.1.1" />
+  <PackageReference Include="Serilog.Extensions.Logging" Version="8.0.1-dev-10370" />
+  <PackageReference Include="Serilog.Settings.Configuration" Version="8.0.1-dev-00561" />
+  <PackageReference Include="Serilog.Sinks.Console" Version="5.0.1" />
+  <PackageReference Include="Serilog.Sinks.File" Version="5.0.1-dev-00972" />
+  <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <ProjectReference Include="..\Loans.AppServices\Loans.AppServices.csproj" />
+    <ProjectReference Include="..\Loans.Api.Contracts\Loans.Api.Contracts.csproj" />
+    <ProjectReference Include="..\Loans.AppServices.Contracts\Loans.AppServices.Contracts.csproj" />
+    <ProjectReference Include="..\Loans.DataAccess\Loans.DataAccess.csproj" />
+</ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Logs\" />
+  </ItemGroup>
+  
+</Project>
